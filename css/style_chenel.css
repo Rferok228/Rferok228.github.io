@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+.container{
+    width: 1180px;
+    /* height: 100vh; */
+    /* background-color: cadetblue; */
+    margin: 0 auto;
+}
+
+.header{
+    height: 40px;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-name{
+    margin-left: 11.88px;
+    font-family: Rubik-Medium;
+}
+
+.header__search__input{
+    border: none;
+    border-bottom: 1px solid #333333;
+    width: 320px;
+    height: 25px;
+    font-family: Rubik-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+}
+.header__search__input:focus{
+    outline: none;
+    color: #333333;
+    font-family: Rubik-Medium;
+}
+
+.header__search__btn{
+    font-family: Rubik-Medium;
+    font-size: 16px;
+    color: #E5261E;
+    background: none;
+    border: none;
+    margin-left: 32px;
+}
+
+.header__auth{
+    width: 113px;
+    height: 38px;
+    border: none;
+    background: #E5261E;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: Rubik-Medium;
+    font-size: 16px;
+}
+
+.header__auth:hover{
+    background-color: #CC221B;
+}
+.link_nav {
+    text-decoration: none;
+    font-family: Rubik-Medium;
+    font-size: 28px;
+    color: red;
+}
+
+#link1 {
+    color: black;
+}
+
+.li_nav {
+    margin-top: 30px;
+}
+
+#nav2 {
+    margin-left: 20px;
+    border-bottom: 3px solid red;
+}
+
+#nav1 {
+
+}
+
+#ul_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+.kanal {
+    height: 162px;
+    width: 1150px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+}
+.container_chanel {
+    margin: 30px 0 30px 0;
+    width: 1180px;
+    height: 696px;
+    overflow-y: scroll;
+}
+.chanel_text_main {
+    margin: 20px 0 20px 0;
+    font-family: Rubik-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.kanal:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.chenel_photo {
+    display: flex;
+    width: 35%;
+    height: 162px;
+}
+.logo_chenel {
+    margin: auto;
+}
+.footer {
+    background-color: red;
+    width: auto;
+    height: 120px;
+    background: #F2F2F2;
+}
+.footer_text {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Rubik-Regular;
+
+}
+#footer_photo {
+    margin: 28px 30px 28px 0;
+
+}
+.photo_2 {
+    margin-bottom: 70px;
+}
+.svedenia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px 0 25px 0;
+}
+#addres {
+    color: #333333;
+}
+#htc {
+    text-decoration: none;
+    color: #1F4766;
+}
+.chanel_text_main2 {
+    margin: 0px 0 0px 0;
+    font-family: Rubik-Regular;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.bubb {
+
+   display:flex;
+   flex-direction: column;
+    font-family: Rubik-Regular;
+  
+}
+
+.mq {
+margin-bottom: 10px;
+}
+
+
+
+
+
+
+
